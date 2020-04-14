@@ -36,7 +36,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 修订历史：
  * ================================================
  */
-class DBHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteOpenHelper {
 
     private static final String DB_CACHE_NAME = "okgo.db";
     private static final int DB_CACHE_VERSION = 1;
