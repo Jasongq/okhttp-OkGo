@@ -52,7 +52,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private TableEntity downloadTableEntity = new TableEntity(TABLE_DOWNLOAD);
     private TableEntity uploadTableEntity = new TableEntity(TABLE_UPLOAD);
 
-    DBHelper() {
+    public DBHelper() {
         this(OkGo.getInstance().getContext());
     }
 
