@@ -56,7 +56,7 @@ public class DBHelper extends SQLiteOpenHelper {
         this(OkGo.getInstance().getContext());
     }
 
-    DBHelper(Context context) {
+    public DBHelper(Context context) {
         super(context, DB_CACHE_NAME, null, DB_CACHE_VERSION);
 
         cacheTableEntity.addColumn(new ColumnEntity(CacheEntity.KEY, "VARCHAR", true, true))//
